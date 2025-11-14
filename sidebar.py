@@ -1,7 +1,7 @@
 import streamlit as st
 
-logo_usjt = "assets/Imagens/logo-usjt.png"
-logo_usjt_branco = "assets/Imagens/logo-usjt-branco.png"
+logo_usjt = "logo-usjt.png"
+logo_usjt_branco = "logo-usjt-branco.png"
 
 st.logo(logo_usjt_branco, icon_image=logo_usjt)
 
@@ -30,3 +30,4 @@ pages = {
 
 pg = st.navigation(pages)
 pg.run()
+
